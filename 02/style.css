@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;   
+    min-height: 100vh;
+}
+
+nav {
+    padding-left: 80px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+ul {
+    display: flex;    
+    list-style: none;        
+}
+
+#problem {
+    padding-left: 395px;
+}
+
+ul li {
+    opacity: 0.5;
+}
+
+ul li:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+header {
+    font-family: 'Mulish', sans-serif;
+    text-align: left;
+    font-size: 46px;
+    line-height: 50px;
+    color: #000;
+    font-weight: normal;
+    
+}
+header span {
+    color: #89C5CC;
+}
+main {
+    color: #7D7987;
+    text-align: left;   
+}
+
+
+button {
+    display: flex;    
+    text-transform: uppercase;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif; 
+    background: #69b99d;
+    border: none;
+    color: white;
+    gap: 10px;
+    padding: 1px 55px 25px;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 80px;
+}
+footer a {
+    font-weight: bold;
+}
